@@ -1,0 +1,254 @@
+body {
+	font-family: 'Inter';
+	background-color:#B2C382;
+	color: #303236;
+}
+
+header h1 {
+	position: absolute;
+	width: 231px;
+	height: 36px;
+	left: 662px;
+	top: 78px;
+
+	font-family: 'Inter';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 30px;
+	line-height: 36px;
+
+	color: #000000;
+}
+	
+header h2 {
+	position: absolute;
+	width: 106px;
+	height: 22px;
+	left: 662px;
+	top: 126px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+
+	color: #000000;
+}
+
+header img {
+	position: absolute;
+	width: 96px;
+	height: 91px;
+	left: 521px;
+	top: 64px;
+
+	background: url(image.png);
+	border-radius: 10px;
+}
+ .Rectangle{
+position: relative;
+width: 614px;
+height: 4px;
+left: 413px;
+top: 179px;
+
+background: #000000;
+}
+
+.facts{
+position: absolute;
+text-align: center;
+justify-items: center;
+width: 614px;
+height: 220px;
+left: 413px;
+top: 233px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 16px;
+
+color: #000000;
+
+background: #FFFFFF;
+border-radius: 3px;
+}
+.facts ul {
+	width: 520px;
+	height: 102px;
+	left: 458px;
+	top: 301px;
+	text-align: left;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+
+	color: #000000;
+}
+.Skills{
+	position: absolute;
+	text-align: center;
+	width: 599px;
+	height: 126px;
+	left: 413px;
+	top: 460px;	
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+}
+	.Certificates{
+	position: absolute;
+	text-align: center;
+	width: 614px;
+	height: 309px;
+	left: 411px;
+	top: 650px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+	
+	color: #000000;
+
+	background: #FFFFFF;
+	border-radius: 3px;
+	}
+	.Certificates img{
+	width: 279px;
+	height: 191px;
+	left: 428px;
+	top: 755px;
+	
+	background: url(image.png);
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	border-radius: 3px;	
+	}
+	
+	.Work{
+	position: absolute;
+	width: 614px;
+	height: 429px;
+	left: 413px;
+	top: 1000px;
+	text-align: center;
+	
+	font-family:'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+	color: #000000;
+		
+	background: #FFFFFF;
+	border-radius: 3px;
+	}
+	.Work table{
+	width: 529px;
+	height: 315px;
+	left: 456px;
+	top: 1106px;
+	text-align:center;
+	margin: auto;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+	color: #000000;
+		
+	background: #f6f4f4;
+	border-radius: 3px;	
+	}
+	.Work ul {
+		text-align: left;
+	}
+.Footer img{
+	position: relative;
+	width: 614px;
+	height: 3px;
+	left: 413px;
+	top: 1420px;
+	
+	background: #000000;
+}
+
+.Footer h3{
+position: relative;
+text-align: center;
+width: 170px;
+height: 22px;
+left: 637px;
+top: 1410px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 16px;
+
+color: #000000;
+}
+
+.Phone{
+	position:relative;
+	width: 194px;
+	height: 17px;
+	left: 450px;
+	top: 1400px;
+	
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 17px;
+	text-align: left;
+
+color: #000000;
+}
+.Telegram {
+	position: relative;
+
+	width: 139px;
+	height: 17px;
+	left: 650px;
+	top: 1364px;
+	
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: underline;
+	line-height: 17px;
+	
+	color: #000000;	
+}
+.GitHub {
+	position: relative;
+	width: 124px;
+	height: 17px;
+	left: 857px;
+	top: 1327px;
+	
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration: underline;
+	line-height: 17px;
+	text-align: right;
+	
+	color: #000000;	
+}
+
+
