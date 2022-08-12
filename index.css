@@ -9,12 +9,12 @@ header h1 {
 	width: 231px;
 	height: 36px;
 	left: 662px;
-	top: 78px;
+	top: 10px;
 
 	font-family: 'Inter';
 	font-weight: bold;
 	font-style: normal;
-	font-size: 30px;
+	font-size: 25px;
 	line-height: 36px;
 
 	color: #000000;
@@ -25,7 +25,7 @@ header h2 {
 	width: 106px;
 	height: 22px;
 	left: 662px;
-	top: 126px;
+	top: 53px;
 
 	font-family: 'Inter';
 	font-style: normal;
@@ -41,7 +41,7 @@ header img {
 	width: 96px;
 	height: 91px;
 	left: 521px;
-	top: 64px;
+	top: 15px;
 
 	background: url(image.png);
 	border-radius: 10px;
@@ -51,7 +51,7 @@ position: relative;
 width: 614px;
 height: 4px;
 left: 413px;
-top: 179px;
+top: 110px;
 
 background: #000000;
 }
@@ -63,11 +63,11 @@ justify-items: center;
 width: 614px;
 height: 220px;
 left: 413px;
-top: 233px;
+top: 135px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: bold;
-font-size: 16px;
+font-size: 14px;
 line-height: 16px;
 
 color: #000000;
@@ -90,18 +90,26 @@ border-radius: 3px;
 
 	color: #000000;
 }
+.facts iframe{
+position: absolute;
+justify-items:right;
+width: 260px;
+height: 150px;
+left: 320px;
+top: 40px;
+}
 .Skills{
 	position: absolute;
 	text-align: center;
 	width: 599px;
 	height: 126px;
 	left: 413px;
-	top: 460px;	
+	top: 350px;	
 	font-family: 'Inter';
 	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 22px;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 8px;
 }
 	.Certificates{
 	position: absolute;
@@ -109,7 +117,7 @@ border-radius: 3px;
 	width: 614px;
 	height: 309px;
 	left: 411px;
-	top: 650px;
+	top: 500px;
 
 	font-family: 'Inter';
 	font-style: normal;
@@ -132,13 +140,12 @@ border-radius: 3px;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 	border-radius: 3px;	
 	}
-	
 	.Work{
 	position: absolute;
 	width: 614px;
 	height: 429px;
 	left: 413px;
-	top: 1000px;
+	top: 820px;
 	text-align: center;
 	
 	font-family:'Inter';
@@ -172,6 +179,23 @@ border-radius: 3px;
 	.Work ul {
 		text-align: left;
 	}
+	.Wishes {
+	position: absolute;
+	width: 614px;
+	height: 150px;
+	left: 420px;
+	top: 1270px;
+	background: #efc8e6;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 26px;
+	text-align:center;
+	color: #000000;
+	}
+	
 .Footer img{
 	position: relative;
 	width: 614px;
