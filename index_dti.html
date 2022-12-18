@@ -15,7 +15,7 @@
 	</header>
 	<div class="Rectangle">
 	</div>
-	<div class="facts" name="facts" data-test-id="table__facts">
+	<div class="facts" name="facts" data-test-id="block__facts">
 		<h2>Факты обо мне</h2>
 			<ul>
 			<li>Люблю собак</li> 
@@ -26,7 +26,7 @@
 	 		</ul>
 			 <iframe src="https://www.youtube.com/embed/baY3SaIhfl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
-	<div class="Skills" data-test-id="table__skills">
+	<div class="Skills" data-test-id="block__skills">
 		<h2>Я умею работать с:</h2>
 		<img name="image 2" src="asserts/image/image 2.png" alt="" data-test-id="icon__postman"> 
 		<img name="image 3" src="asserts/image/image 3.png" alt="" data-test-id="icon__intellij-idea">
@@ -35,26 +35,26 @@
 		<img name="image 6" src="asserts/image/image 6.png" alt="" data-test-id="icon__slack">
 		<img name="image 7" src="asserts/image/image 7.png" alt="" data-test-id="icon__asana">
 	</div>
-	<div class="Certificates" data-test-id="table__certificates">
+	<div class="Certificates" data-test-id="block__certificates">
 		<h2>Мои сертификаты</h2>
 		<img name="image 8" src="asserts/image/image 8.png" alt="">
 		<img name="Rectangle 5" src="asserts/image/Rectangle 5.png" alt="">
 </div>
-<div class="Work experience" data-test-id="table__work-experience">
+<div class="Work experience" data-test-id="block__work-experience">
 	<h2>Опыт работы в IT</h2>
-	<table name="Work experience" border="1">
+	<table name="Work experience" border="1" data-test-id="table__work-experience">
 		<tr>
-		 <th>Должность</th>
-		 <th>Стаж</th>
-		 <th>Обязанности</th>
+		 <th data-test-id="work__position">Должность</th>
+		 <th data-test-id="work__period">Стаж</th>
+		 <th data-test-id="work__responsibilities">Обязанности</th>
 		</tr>
 		<tr>
 		 <td>It-рекрутер</td>
-		 <td>6 месяцев</td>
+		 <td data-test-id="period__recruitment">6 месяцев</td> 
 		 <td>Помощь пользователям с настройкой программ компании</td>
 		 <tr>
 			<td>QA Engineer</td>
-			<td>9 месяцев</td>
+			<td data-test-id="period__qa">9 месяцев</td>
 			<td>
 				<ul>
 					<li>Тестирование приложений</li>
@@ -67,17 +67,17 @@
 	 </tr>
 	</table>
 </div>
-<div class="Wishes" data-test-id="input__wishes">
+<div class="Wishes" data-test-id="block__wishes">
 	<p><b>Пожелай мне чего-нибудь</b><Br>
-		<input id="wishes" type="text" name="wishes" pattern="выражение"><Br>
-		<input id="type of sending a response" type="checkbox" name="type of sending a response" value="Отправить анонимно"> Отправить анонимно<Br>
-		<input id="send a response" type="button" name="send" value="Отправить"><Br>
+		<input id="wishes" type="text" name="wishes" pattern="выражение" data-test-id="input__wishes"><Br>
+		<input id="type of sending a response" type="checkbox" name="type of sending a response" value="Отправить анонимно" data-test-id="checkbox__send-anonymously"> Отправить анонимно<Br>
+		<input id="send a response" type="button" name="send" value="Отправить" data-test-id="button__send"><Br>
 	 </p>
 </div>
-<div class="Footer" data-test-id="block__contacts">
+<div class="Footer">
 	<img src="asserts/image/Rectangle 3.png" alt="">
 	<h3>Связаться со мной</h3>
-	<h4 class="Phone" id="Phone">Телефон: +7 999 999-99-99</h4>
+	<h4 class="Phone" id="Phone" data-test-id="phone_number">Телефон: +7 999 999-99-99</h4>
 	<h4 class="Telegram" id="Telegram">Telegram: @xenia_ef</h4>
 	<h4 class="GitHub" id="GitHub">GitHub: @xenia_ef</h4>
 </div>
