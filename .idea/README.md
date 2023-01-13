@@ -1,1 +1,0 @@
-<img height="200" src="C:\Users\ksvef\OneDrive\Рабочий стол\photo_2022-11-28_16-43-16.jpg" width="200"/>
